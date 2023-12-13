@@ -4,7 +4,7 @@ import xmltodict
 import xml.etree.ElementTree as ET
 from json import dumps
 from datetime import datetime
-from Bmkg.helpers import Kode_Parameter, Kode_Cuaca
+from Bmkg.helpers import Kode_Parameter, Kode_Cuaca, Kode_Arah_Angin
 class Bmkg:
     def __init__(self) -> None:
         self.__BASE_URL: str = 'https://data.bmkg.go.id/DataMKG/MEWS/DigitalForecast/'
@@ -16,6 +16,14 @@ class Bmkg:
 
     def __str_2_datetime(self, text: str) -> str:
         return datetime.strptime(text, "%Y%m%d%H%M%S").strftime("%Y-%m-%dT%H:%M:%S");
+
+    def __str_2_number(self, text: str):
+        try:
+            return float(text)
+        except:
+            return Kode_Arah_Angin[text]
+            
+
 
     def __filter_area(self, areas: list):
         for area in areas:
@@ -30,10 +38,10 @@ class Bmkg:
                             {
                                 "datetime": self.__str_2_datetime(timerange['@datetime']),
                                 "value": {
-                                    item['@unit']: item['#text'] if isinstance(item, dict) else item
+                                    item['@unit']: self.__str_2_number(item['#text']) if isinstance(item, dict) else item
                                     for item in timerange['value']
                                 } if isinstance(timerange['value'], list) else {
-                                    timerange['value']['@unit']: timerange['value']['#text'] 
+                                    timerange['value']['@unit']: self.__str_2_number(timerange['value']['#text'] )
                                 } if timerange['value']['@unit'] != 'icon' else {
                                     timerange['value']['@unit']: Kode_Cuaca[timerange['value']['#text']]
                                 }
@@ -55,13 +63,13 @@ class Bmkg:
         self.__result['productioncenter']: str = data['data']['@productioncenter']
 
         self.__filter_area(data['data']['forecast']['area'])
-        
-        with open('test_data.json', 'w') as file:
-            file.write(dumps(self.__result, indent=2))
 
+        return self.__result
 
 # testing
 if(__name__ == "__main__"):
     bmkg: Bmkg = Bmkg()
 
-    bmkg.execute('Aceh')
+    with open('test_data.json', 'w') as file:
+        file.write(dumps(bmkg.execute('Aceh'), indent=2))
+    # print(bmkg.execute('Aceh'))
