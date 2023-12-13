@@ -9,9 +9,8 @@ Program ini dirancang untuk melakukan web scraping pada situs berita Kompas deng
 ## Requirements
 
 - **Python >= 3.11.4**
-- **pyquery >= 2.0.0**
-- **pytz >= 2023.3.post1**
 - **Requests >= 2.31.0**
+- **xmltodict >= 0.12.0**
 
 ## Installation
 
@@ -29,17 +28,15 @@ pip install -r requirements.txt
 ## Example Usages
 
 ```sh
-python main.py --site=News --page=2 --date=2023-12-08 --output=data
+python main.py --provinsi=DKIJakarta --output=data
 ```
 
 ### Flags
 
-| Flag     | Alias |             Description             | Example           | Default |
-| :------- | :---: | :---------------------------------: | :---------------- | :-----: |
-| --site   |  -s   | [category](Category.md) of the site | --site=News       |  News   |
-| --page   |  -p   |       number page of the site       | --page=2          |    1    |
-| --date   |  -d   |          date of the site           | --date=2023-12-08 |   now   |
-| --output |  -o   |        json file output path        | --output=data     |  data   |
+| Flag       | Alias |             Description             | Example               |  Default   |
+| :--------- | :---: | :---------------------------------: | :-------------------- | :--------: |
+| --provinsi |  -p   | name of the [province](Province.md) | --provinsi=DKIJakarta | DKIJakarta |
+| --output   |  -o   |        json file output path        | --output=data         |    data    |
 
 # Sample Output
 

@@ -7,7 +7,7 @@ import os
 
 if(__name__ == '__main__'):
     argp: ArgumentParser = ArgumentParser()
-    argp.add_argument("--provinsi", '-s', type=str, default='DKIJakarta')
+    argp.add_argument("--provinsi", '-p', type=str, default='DKIJakarta')
     argp.add_argument("--output", '-o', type=str)
 
     args = argp.parse_args()
