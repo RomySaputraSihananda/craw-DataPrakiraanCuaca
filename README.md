@@ -4,7 +4,7 @@
 
 ![](https://raw.githubusercontent.com/RomySaputraSihananda/RomySaputraSihananda/main/images/GBPFnKZa4AAqdsA.jpeg)
 
-Program ini dirancang untuk melakukan web scraping pada situs berita Kompas dengan memanfaatkan </br>parameter seperti kategori (category), tanggal, dan halaman (page). </br>Tujuan utama dari program ini adalah untuk mengumpulkan informasi berita dari Kompas sesuai </br>dengan kriteria yang diinputkan oleh pengguna.
+Program ini dirancang melakukan crawling data prakiraan cuaca dari [BMKG](https://data.bmkg.go.id).</br> Aplikasi ini memanfaatkan modul **xmltodict** untuk mengolah data XML menjadi dictionary </br>dan **requests** untuk mengambil data dari layanan prakiraan cuaca. </br>Tujuan utama dari program ini adalah untuk mengumpulkan informasi cuaca terkini</br> dari [BMKG](https://data.bmkg.go.id) sesuai dengan provinsi yang diinputkan oleh pengguna.
 
 ## Requirements
 
@@ -16,10 +16,10 @@ Program ini dirancang untuk melakukan web scraping pada situs berita Kompas deng
 
 ```sh
 # Clonig Repository
-git clone https://github.com/romysaputrasihananda/craw-Kompas
+git clone https://github.com/romysaputrasihananda/craw-DataPrakiraanCuaca
 
 # Change Directory
-cd craw-Kompas
+cd craw-DataPrakiraanCuaca
 
 # Install Requirement
 pip install -r requirements.txt
