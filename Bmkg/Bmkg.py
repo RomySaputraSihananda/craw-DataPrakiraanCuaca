@@ -4,7 +4,7 @@ import xmltodict
 import xml.etree.ElementTree as ET
 from json import dumps
 from datetime import datetime
-
+from Bmkg.helpers import Kode_Parameter, Kode_Cuaca
 class Bmkg:
     def __init__(self) -> None:
         self.__BASE_URL: str = 'https://data.bmkg.go.id/DataMKG/MEWS/DigitalForecast/'
@@ -20,8 +20,27 @@ class Bmkg:
     def __filter_area(self, areas: list):
         for area in areas:
             self.__result['data'].append({
-                "kabupaten" : {name['@xml:lang'] : name['#text'] for name in area['name']},
-                "provinsi" : area['@domain']
+                "kabupaten": {name['@xml:lang'] : name['#text'] for name in area['name']},
+                "provinsi": area['@domain'],
+                "coordinate": area['@coordinate'],
+                "parameter":{
+                    Kode_Parameter[parameter["@id"]]: {
+                        "type": parameter['@type'],
+                        "timerange": [
+                            {
+                                "datetime": self.__str_2_datetime(timerange['@datetime']),
+                                "value": {
+                                    item['@unit']: item['#text'] if isinstance(item, dict) else item
+                                    for item in timerange['value']
+                                } if isinstance(timerange['value'], list) else {
+                                    timerange['value']['@unit']: timerange['value']['#text'] 
+                                } if timerange['value']['@unit'] != 'icon' else {
+                                    timerange['value']['@unit']: Kode_Cuaca[timerange['value']['#text']]
+                                }
+                            } for timerange in parameter['timerange']
+                        ]
+                    } for parameter in area['parameter']
+                }
             })
 
 
@@ -37,7 +56,8 @@ class Bmkg:
 
         self.__filter_area(data['data']['forecast']['area'])
         
-        print(self.__result)
+        with open('test_data.json', 'w') as file:
+            file.write(dumps(self.__result, indent=2))
 
 
 # testing

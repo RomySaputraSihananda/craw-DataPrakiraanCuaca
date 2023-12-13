@@ -34,3 +34,16 @@ Kode_Arah_Angin = {
     "NNW" : "North-Northwest",
     "VARIABLE" : "berubah-ubah",
 }
+
+Kode_Parameter = {
+    "timerange": "timerange",
+    "weather": "cuaca",
+    "t": "suhu_udara",
+    "tmin": "suhu_udara_minimum",
+    "tmax": "suhu_udara_maksimum",
+    "hu": "kelembapan_udara",
+    "humin": "kelembapan_udara_minimum",
+    "humax": "kelembapan_udara_maksimum",
+    "ws": "kecepatan_angin",
+    "wd": "arah_angin"
+}
