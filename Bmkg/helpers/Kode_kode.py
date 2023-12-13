@@ -1,4 +1,4 @@
-Kode_Cuaca = {
+Kode_Cuaca: dict = {
     "0": "Cerah / Clear Skies",
     "1": "Cerah Berawan / Partly Cloudy",
     "2": "Cerah Berawan / Partly Cloudy",
@@ -15,7 +15,7 @@ Kode_Cuaca = {
     "97": "Hujan Petir / Severe Thunderstorm",
 }
 
-Kode_Arah_Angin = {
+Kode_Arah_Angin: dict = {
     "N" : "North",
     "NNE" : "North-Northeast",
     "NE" : "Northeast",
@@ -35,7 +35,7 @@ Kode_Arah_Angin = {
     "VARIABLE" : "berubah-ubah",
 }
 
-Kode_Parameter = {
+Kode_Parameter: dict = {
     "timerange": "timerange",
     "weather": "cuaca",
     "t": "suhu_udara",

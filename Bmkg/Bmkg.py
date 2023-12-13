@@ -25,7 +25,7 @@ class Bmkg:
         except:
             return Kode_Arah_Angin[text]
             
-    def __filter_area(self, areas: list):
+    def __filter_area(self, areas: list) -> None:
         for area in areas:
             self.__result['data'].append({
                 "kabupaten": {name['@xml:lang'] : name['#text'] for name in area['name']},
