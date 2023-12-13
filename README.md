@@ -4,7 +4,7 @@
 
 ![](https://raw.githubusercontent.com/RomySaputraSihananda/RomySaputraSihananda/main/images/GBPFnKZa4AAqdsA.jpeg)
 
-Program ini dirancang melakukan crawling data prakiraan cuaca dari [BMKG](https://data.bmkg.go.id). Aplikasi ini</br> memanfaatkan modul **xmltodict** untuk mengolah data XML menjadi dictionary </br>dan **requests** untuk mengambil data dari layanan prakiraan cuaca. </br>Tujuan utama dari program ini adalah untuk mengumpulkan informasi cuaca terkini</br> dari [BMKG](https://data.bmkg.go.id) sesuai dengan provinsi yang diinputkan oleh pengguna.
+Program ini dirancang melakukan crawling data prakiraan cuaca dari [BMKG](https://data.bmkg.go.id). Aplikasi ini memanfaatkan modul **xmltodict** </br> untuk mengolah data XML menjadi dictionary </br>dan **requests** untuk mengambil data dari layanan prakiraan cuaca. </br>Tujuan utama dari program ini adalah untuk mengumpulkan informasi cuaca terkini</br> dari [BMKG](https://data.bmkg.go.id) sesuai dengan provinsi yang diinputkan oleh pengguna.
 
 ## Requirements
 
