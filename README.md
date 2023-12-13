@@ -174,3 +174,7 @@ python main.py --provinsi=DKIJakarta --output=data
   ]
 }
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
