@@ -28,6 +28,7 @@ class Bmkg:
     def __filter_area(self, areas: list) -> None:
         for area in areas:
             self.__result['data'].append({
+                "id": area['@id'],
                 "kabupaten": {name['@xml:lang'] : name['#text'] for name in area['name']},
                 "provinsi": area['@domain'],
                 "coordinate": area['@coordinate'],

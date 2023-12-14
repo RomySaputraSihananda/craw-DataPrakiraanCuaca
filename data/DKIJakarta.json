@@ -1,9 +1,10 @@
 {
-  "timestamp": "2023-12-13T03:42:54",
+  "timestamp": "2023-12-14T02:39:25",
   "source": "meteofactory",
   "productioncenter": "NC Jakarta",
   "data": [
     {
+      "id": "501192",
       "kabupaten": {
         "en_US": "Jakarta Barat",
         "id_ID": "Kota Jakarta Barat"
@@ -15,75 +16,75 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "%": 65.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "%": 60.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
               "value": {
                 "%": 85.0
               }
             },
             {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "%": 55.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "%": 60.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 75.0
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
                 "%": 90.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "%": 55.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 65.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "%": 85.0
               }
             }
           ]
@@ -92,12 +93,6 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
                 "%": 85.0
@@ -106,7 +101,13 @@
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 95.0
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 90.0
               }
             }
           ]
@@ -115,24 +116,24 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 31.0,
-                "F": 87.8
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 33.0,
+                "F": 91.4
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "C": 33.0,
-                "F": 91.4
+                "C": 34.0,
+                "F": 93.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 35.0,
+                "F": 95.0
               }
             }
           ]
@@ -141,21 +142,21 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 65.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "%": 60.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 60.0
+                "%": 55.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 55.0
               }
             }
           ]
@@ -163,13 +164,6 @@
         "suhu_udara_minimum": {
           "type": "daily",
           "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 23.0,
-                "F": 73.4
-              }
-            },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
@@ -179,6 +173,13 @@
             },
             {
               "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 24.0,
+                "F": 75.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
               "value": {
                 "C": 24.0,
                 "F": 75.2
@@ -190,34 +191,6 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "C": 31.0,
-                "F": 87.8
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
                 "C": 26.0,
@@ -227,8 +200,8 @@
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 33.0,
+                "F": 91.4
               }
             },
             {
@@ -255,8 +228,8 @@
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "C": 33.0,
-                "F": 91.4
+                "C": 34.0,
+                "F": 93.2
               }
             },
             {
@@ -269,8 +242,36 @@
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
+                "C": 25.0,
+                "F": 77.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
                 "C": 26.0,
                 "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "C": 35.0,
+                "F": 95.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 28.0,
+                "F": 82.4
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "C": 25.0,
+                "F": 77.0
               }
             }
           ]
@@ -279,24 +280,8 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
+              "value": "Cerah / Clear Skies"
             },
             {
               "datetime": "2023-12-14T06:00:00",
@@ -324,7 +309,23 @@
             },
             {
               "datetime": "2023-12-15T18:00:00",
-              "value": "Berawan / Mostly Cloudy"
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
             }
           ]
         },
@@ -332,31 +333,7 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "deg": 247.5,
-                "CARD": "West-Southwest",
-                "SEXA": 24730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "deg": 112.5,
-                "CARD": "East-Southeast",
-                "SEXA": 11230.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
+              "datetime": "2023-12-14T00:00:00",
               "value": {
                 "deg": 202.5,
                 "CARD": "South-Southwest",
@@ -364,27 +341,19 @@
               }
             },
             {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "deg": 225.0,
-                "CARD": "Southwest",
-                "SEXA": 22500.0
-              }
-            },
-            {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
+                "deg": 315.0,
+                "CARD": "Northwest",
+                "SEXA": 31500.0
               }
             },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "deg": 22.5,
-                "CARD": "North-Northeast",
-                "SEXA": 2230.0
+                "deg": 67.5,
+                "CARD": "East-Northeast",
+                "SEXA": 6730.0
               }
             },
             {
@@ -406,25 +375,57 @@
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
+                "deg": 292.5,
+                "CARD": "West-Northwest",
+                "SEXA": 29230.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "deg": 67.5,
-                "CARD": "East-Northeast",
-                "SEXA": 6730.0
+                "deg": 45.0,
+                "CARD": "Northeast",
+                "SEXA": 4500.0
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
-                "deg": 180.0,
-                "CARD": "South",
-                "SEXA": 18000.0
+                "deg": 202.5,
+                "CARD": "South-Southwest",
+                "SEXA": 20230.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "deg": 315.0,
+                "CARD": "Northwest",
+                "SEXA": 31500.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
               }
             }
           ]
@@ -433,42 +434,6 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
                 "Kt": 5.0,
@@ -480,10 +445,10 @@
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
               }
             },
             {
@@ -498,10 +463,10 @@
             {
               "datetime": "2023-12-14T18:00:00",
               "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
               }
             },
             {
@@ -516,10 +481,10 @@
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
               }
             },
             {
@@ -533,6 +498,42 @@
             },
             {
               "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
               "value": {
                 "Kt": 5.0,
                 "MPH": 5.75389725,
@@ -545,6 +546,7 @@
       }
     },
     {
+      "id": "501195",
       "kabupaten": {
         "en_US": "Jakarta Pusat",
         "id_ID": "Kota Jakarta Pusat"
@@ -556,73 +558,73 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "%": 85.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
-                "%": 85.0
+                "%": 80.0
               }
             },
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "%": 80.0
+                "%": 70.0
               }
             },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 75.0
               }
             },
             {
               "datetime": "2023-12-14T18:00:00",
               "value": {
-                "%": 90.0
+                "%": 85.0
               }
             },
             {
               "datetime": "2023-12-15T00:00:00",
               "value": {
-                "%": 90.0
+                "%": 80.0
               }
             },
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "%": 80.0
+                "%": 70.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 75.0
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "%": 70.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 65.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
               "value": {
                 "%": 85.0
               }
@@ -633,12 +635,6 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
                 "%": 90.0
@@ -646,6 +642,12 @@
             },
             {
               "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
               "value": {
                 "%": 95.0
               }
@@ -656,13 +658,6 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
                 "C": 30.0,
@@ -672,8 +667,15 @@
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "C": 30.0,
-                "F": 86.0
+                "C": 31.0,
+                "F": 87.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 32.0,
+                "F": 89.6
               }
             }
           ]
@@ -681,12 +683,6 @@
         "kelembapan_udara_minimum": {
           "type": "daily",
           "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
@@ -696,7 +692,13 @@
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 65.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 65.0
               }
             }
           ]
@@ -704,13 +706,6 @@
         "suhu_udara_minimum": {
           "type": "daily",
           "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
@@ -720,6 +715,13 @@
             },
             {
               "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
               "value": {
                 "C": 25.0,
                 "F": 77.0
@@ -731,34 +733,6 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "C": 29.0,
-                "F": 84.2
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
                 "C": 26.0,
@@ -789,29 +763,57 @@
             {
               "datetime": "2023-12-15T00:00:00",
               "value": {
-                "C": 27.0,
-                "F": 80.6
+                "C": 26.0,
+                "F": 78.8
               }
             },
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "C": 30.0,
-                "F": 86.0
+                "C": 31.0,
+                "F": 87.8
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "C": 28.0,
-                "F": 82.4
+                "C": 29.0,
+                "F": 84.2
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
-                "C": 27.0,
-                "F": 80.6
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "C": 32.0,
+                "F": 89.6
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 29.0,
+                "F": 84.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
               }
             }
           ]
@@ -820,24 +822,8 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
+              "value": "Cerah / Clear Skies"
             },
             {
               "datetime": "2023-12-14T06:00:00",
@@ -853,11 +839,11 @@
             },
             {
               "datetime": "2023-12-15T00:00:00",
-              "value": "Berawan / Mostly Cloudy"
+              "value": "Cerah Berawan / Partly Cloudy"
             },
             {
               "datetime": "2023-12-15T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
+              "value": "Cerah / Clear Skies"
             },
             {
               "datetime": "2023-12-15T12:00:00",
@@ -865,6 +851,22 @@
             },
             {
               "datetime": "2023-12-15T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": "Berawan / Mostly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
               "value": "Cerah Berawan / Partly Cloudy"
             }
           ]
@@ -873,43 +875,11 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
               }
             },
             {
@@ -923,25 +893,25 @@
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
+                "deg": 45.0,
+                "CARD": "Northeast",
+                "SEXA": 4500.0
               }
             },
             {
               "datetime": "2023-12-14T18:00:00",
               "value": {
-                "deg": 180.0,
-                "CARD": "South",
-                "SEXA": 18000.0
+                "deg": 157.5,
+                "CARD": "South-Southeast",
+                "SEXA": 15730.0
               }
             },
             {
               "datetime": "2023-12-15T00:00:00",
               "value": {
-                "deg": 157.5,
-                "CARD": "South-Southeast",
-                "SEXA": 15730.0
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
               }
             },
             {
@@ -955,17 +925,49 @@
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "deg": 270.0,
+                "CARD": "West",
+                "SEXA": 27000.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
               }
             }
           ]
@@ -974,42 +976,6 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
                 "Kt": 5.0,
@@ -1048,14 +1014,23 @@
             {
               "datetime": "2023-12-15T00:00:00",
               "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
               }
             },
             {
               "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
               "value": {
                 "Kt": 5.0,
                 "MPH": 5.75389725,
@@ -1064,21 +1039,48 @@
               }
             },
             {
-              "datetime": "2023-12-15T12:00:00",
+              "datetime": "2023-12-15T18:00:00",
               "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
               }
             },
             {
-              "datetime": "2023-12-15T18:00:00",
+              "datetime": "2023-12-16T00:00:00",
               "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
               }
             }
           ]
@@ -1086,6 +1088,7 @@
       }
     },
     {
+      "id": "501193",
       "kabupaten": {
         "en_US": "Jakarta Selatan",
         "id_ID": "Kota Jakarta Selatan"
@@ -1097,75 +1100,75 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "%": 65.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
-                "%": 85.0
+                "%": 80.0
               }
             },
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "%": 65.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 75.0
               }
             },
             {
               "datetime": "2023-12-14T18:00:00",
               "value": {
-                "%": 95.0
+                "%": 85.0
               }
             },
             {
               "datetime": "2023-12-15T00:00:00",
               "value": {
-                "%": 90.0
+                "%": 80.0
               }
             },
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "%": 70.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 75.0
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
                 "%": 90.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "%": 60.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 70.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "%": 85.0
               }
             }
           ]
@@ -1174,12 +1177,6 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
                 "%": 90.0
@@ -1188,7 +1185,13 @@
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 95.0
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 90.0
               }
             }
           ]
@@ -1197,24 +1200,24 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 31.0,
-                "F": 87.8
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 33.0,
+                "F": 91.4
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 34.0,
+                "F": 93.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 34.0,
+                "F": 93.2
               }
             }
           ]
@@ -1223,21 +1226,21 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 65.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "%": 65.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 70.0
+                "%": 55.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 60.0
               }
             }
           ]
@@ -1245,13 +1248,6 @@
         "suhu_udara_minimum": {
           "type": "daily",
           "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 23.0,
-                "F": 73.4
-              }
-            },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
@@ -1261,6 +1257,13 @@
             },
             {
               "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 24.0,
+                "F": 75.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
               "value": {
                 "C": 24.0,
                 "F": 75.2
@@ -1272,34 +1275,6 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "C": 31.0,
-                "F": 87.8
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
                 "C": 26.0,
@@ -1309,8 +1284,8 @@
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 33.0,
+                "F": 91.4
               }
             },
             {
@@ -1337,19 +1312,47 @@
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 34.0,
+                "F": 93.2
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "C": 27.0,
-                "F": 80.6
+                "C": 28.0,
+                "F": 82.4
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "C": 25.0,
+                "F": 77.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "C": 34.0,
+                "F": 93.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 28.0,
+                "F": 82.4
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
               "value": {
                 "C": 26.0,
                 "F": 78.8
@@ -1361,24 +1364,8 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": "Cerah / Clear Skies"
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
+              "value": "Cerah / Clear Skies"
             },
             {
               "datetime": "2023-12-14T06:00:00",
@@ -1386,65 +1373,49 @@
             },
             {
               "datetime": "2023-12-14T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
+              "value": "Cerah Berawan / Partly Cloudy"
             },
             {
               "datetime": "2023-12-14T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
+              "value": "Berawan / Mostly Cloudy"
             },
             {
               "datetime": "2023-12-15T00:00:00",
-              "value": "Berawan / Mostly Cloudy"
+              "value": "Cerah Berawan / Partly Cloudy"
             },
             {
               "datetime": "2023-12-15T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
+              "value": "Cerah / Clear Skies"
             },
             {
               "datetime": "2023-12-15T12:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
+              "value": "Berawan / Mostly Cloudy"
             },
             {
               "datetime": "2023-12-15T18:00:00",
-              "value": "Berawan / Mostly Cloudy"
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": "Hujan Ringan / Light Rain"
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
             }
           ]
         },
         "arah_angin": {
           "type": "hourly",
           "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "deg": 247.5,
-                "CARD": "West-Southwest",
-                "SEXA": 24730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "deg": 180.0,
-                "CARD": "South",
-                "SEXA": 18000.0
-              }
-            },
             {
               "datetime": "2023-12-14T00:00:00",
               "value": {
@@ -1464,21 +1435,13 @@
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
+                "deg": 67.5,
+                "CARD": "East-Northeast",
+                "SEXA": 6730.0
               }
             },
             {
               "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "deg": 135.0,
-                "CARD": "Southeast",
-                "SEXA": 13500.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
               "value": {
                 "deg": 202.5,
                 "CARD": "South-Southwest",
@@ -1486,19 +1449,27 @@
               }
             },
             {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
+                "deg": 315.0,
+                "CARD": "Northwest",
+                "SEXA": 31500.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "deg": 45.0,
-                "CARD": "Northeast",
-                "SEXA": 4500.0
+                "deg": 0.0,
+                "CARD": "berubah-ubah",
+                "SEXA": 0.0
               }
             },
             {
@@ -1508,48 +1479,44 @@
                 "CARD": "South-Southeast",
                 "SEXA": 15730.0
               }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "deg": 0.0,
+                "CARD": "berubah-ubah",
+                "SEXA": 0.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "deg": 90.0,
+                "CARD": "East",
+                "SEXA": 9000.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
             }
           ]
         },
         "kecepatan_angin": {
           "type": "hourly",
           "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
             {
               "datetime": "2023-12-14T00:00:00",
               "value": {
@@ -1571,10 +1538,10 @@
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
               }
             },
             {
@@ -1607,6 +1574,15 @@
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
+                "Kt": 0.0,
+                "MPH": 0.0,
+                "KPH": 0.0,
+                "MS": 0.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
                 "Kt": 2.0,
                 "MPH": 2.3015589,
                 "KPH": 3.704,
@@ -1614,7 +1590,34 @@
               }
             },
             {
-              "datetime": "2023-12-15T18:00:00",
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "Kt": 0.0,
+                "MPH": 0.0,
+                "KPH": 0.0,
+                "MS": 0.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
               "value": {
                 "Kt": 5.0,
                 "MPH": 5.75389725,
@@ -1627,6 +1630,7 @@
       }
     },
     {
+      "id": "501191",
       "kabupaten": {
         "en_US": "Jakarta Timur",
         "id_ID": "Kota Jakarta Timur"
@@ -1638,75 +1642,75 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "%": 65.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
-                "%": 85.0
+                "%": 80.0
               }
             },
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "%": 65.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 75.0
               }
             },
             {
               "datetime": "2023-12-14T18:00:00",
               "value": {
-                "%": 95.0
+                "%": 85.0
               }
             },
             {
               "datetime": "2023-12-15T00:00:00",
               "value": {
-                "%": 90.0
+                "%": 80.0
               }
             },
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "%": 70.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 80.0
+                "%": 75.0
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
                 "%": 90.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "%": 60.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 70.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "%": 85.0
               }
             }
           ]
@@ -1715,12 +1719,6 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
                 "%": 90.0
@@ -1729,7 +1727,13 @@
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 95.0
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 90.0
               }
             }
           ]
@@ -1738,24 +1742,24 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 31.0,
-                "F": 87.8
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 33.0,
+                "F": 91.4
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 34.0,
+                "F": 93.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 34.0,
+                "F": 93.2
               }
             }
           ]
@@ -1764,21 +1768,21 @@
           "type": "daily",
           "timerange": [
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 65.0
-              }
-            },
-            {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "%": 65.0
+                "%": 55.0
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "%": 70.0
+                "%": 55.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 60.0
               }
             }
           ]
@@ -1786,13 +1790,6 @@
         "suhu_udara_minimum": {
           "type": "daily",
           "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 23.0,
-                "F": 73.4
-              }
-            },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
@@ -1802,6 +1799,13 @@
             },
             {
               "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 24.0,
+                "F": 75.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
               "value": {
                 "C": 24.0,
                 "F": 75.2
@@ -1813,34 +1817,6 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "C": 31.0,
-                "F": 87.8
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
                 "C": 26.0,
@@ -1850,8 +1826,8 @@
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 33.0,
+                "F": 91.4
               }
             },
             {
@@ -1878,19 +1854,47 @@
             {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "C": 32.0,
-                "F": 89.6
+                "C": 34.0,
+                "F": 93.2
               }
             },
             {
               "datetime": "2023-12-15T12:00:00",
               "value": {
-                "C": 27.0,
-                "F": 80.6
+                "C": 28.0,
+                "F": 82.4
               }
             },
             {
               "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "C": 25.0,
+                "F": 77.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "C": 34.0,
+                "F": 93.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 28.0,
+                "F": 82.4
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
               "value": {
                 "C": 26.0,
                 "F": 78.8
@@ -1902,22 +1906,6 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": "Cerah / Clear Skies"
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": "Cerah Berawan / Partly Cloudy"
             },
@@ -1927,19 +1915,19 @@
             },
             {
               "datetime": "2023-12-14T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
+              "value": "Cerah Berawan / Partly Cloudy"
             },
             {
               "datetime": "2023-12-14T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
               "value": "Berawan / Mostly Cloudy"
             },
             {
-              "datetime": "2023-12-15T06:00:00",
+              "datetime": "2023-12-15T00:00:00",
               "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": "Cerah / Clear Skies"
             },
             {
               "datetime": "2023-12-15T12:00:00",
@@ -1947,45 +1935,29 @@
             },
             {
               "datetime": "2023-12-15T18:00:00",
-              "value": "Berawan / Mostly Cloudy"
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
             }
           ]
         },
         "arah_angin": {
           "type": "hourly",
           "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "deg": 247.5,
-                "CARD": "West-Southwest",
-                "SEXA": 24730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "deg": 180.0,
-                "CARD": "South",
-                "SEXA": 18000.0
-              }
-            },
             {
               "datetime": "2023-12-14T00:00:00",
               "value": {
@@ -2005,21 +1977,13 @@
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
+                "deg": 67.5,
+                "CARD": "East-Northeast",
+                "SEXA": 6730.0
               }
             },
             {
               "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "deg": 135.0,
-                "CARD": "Southeast",
-                "SEXA": 13500.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
               "value": {
                 "deg": 202.5,
                 "CARD": "South-Southwest",
@@ -2027,1025 +1991,15 @@
               }
             },
             {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "deg": 45.0,
-                "CARD": "Northeast",
-                "SEXA": 4500.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "deg": 157.5,
-                "CARD": "South-Southeast",
-                "SEXA": 15730.0
-              }
-            }
-          ]
-        },
-        "kecepatan_angin": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
               "datetime": "2023-12-15T00:00:00",
               "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
               }
             },
             {
               "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "kabupaten": {
-        "en_US": "Jakarta Utara",
-        "id_ID": "Kota Jakarta Utara"
-      },
-      "provinsi": "DKI Jakarta",
-      "coordinate": "106.865559 -6.126218",
-      "parameter": {
-        "kelembapan_udara": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "%": 85.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "%": 85.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "%": 85.0
-              }
-            }
-          ]
-        },
-        "kelembapan_udara_maksimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "%": 95.0
-              }
-            }
-          ]
-        },
-        "suhu_udara_maksimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            }
-          ]
-        },
-        "kelembapan_udara_minimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "%": 70.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "%": 80.0
-              }
-            }
-          ]
-        },
-        "suhu_udara_minimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "C": 25.0,
-                "F": 77.0
-              }
-            }
-          ]
-        },
-        "suhu_udara": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "C": 29.0,
-                "F": 84.2
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "C": 29.0,
-                "F": 84.2
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "C": 26.0,
-                "F": 78.8
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            }
-          ]
-        },
-        "cuaca": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            }
-          ]
-        },
-        "arah_angin": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "deg": 180.0,
-                "CARD": "South",
-                "SEXA": 18000.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
-                "deg": 157.5,
-                "CARD": "South-Southeast",
-                "SEXA": 15730.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            }
-          ]
-        },
-        "kecepatan_angin": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "Kt": 2.0,
-                "MPH": 2.3015589,
-                "KPH": 3.704,
-                "MS": 1.028888888
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "kabupaten": {
-        "en_US": "Kepulauan Seribu",
-        "id_ID": "Kab. Kepulauan Seribu"
-      },
-      "provinsi": "DKI Jakarta",
-      "coordinate": "106.825562 -5.987607",
-      "parameter": {
-        "kelembapan_udara": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "%": 80.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "%": 85.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "%": 85.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "%": 85.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "%": 80.0
-              }
-            }
-          ]
-        },
-        "kelembapan_udara_maksimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "%": 90.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "%": 95.0
-              }
-            }
-          ]
-        },
-        "suhu_udara_maksimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            }
-          ]
-        },
-        "kelembapan_udara_minimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "%": 75.0
-              }
-            }
-          ]
-        },
-        "suhu_udara_minimum": {
-          "type": "daily",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            }
-          ]
-        },
-        "suhu_udara": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "C": 29.0,
-                "F": 84.2
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
-                "C": 27.0,
-                "F": 80.6
-              }
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "C": 28.0,
-                "F": 82.4
-              }
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": {
-                "C": 30.0,
-                "F": 86.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": {
-                "C": 29.0,
-                "F": 84.2
-              }
-            }
-          ]
-        },
-        "cuaca": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": "Berawan / Mostly Cloudy"
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T12:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            },
-            {
-              "datetime": "2023-12-15T18:00:00",
-              "value": "Cerah Berawan / Partly Cloudy"
-            }
-          ]
-        },
-        "arah_angin": {
-          "type": "hourly",
-          "timerange": [
-            {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "deg": 180.0,
-                "CARD": "South",
-                "SEXA": 18000.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
               "value": {
                 "deg": 315.0,
                 "CARD": "Northwest",
@@ -3053,70 +2007,6 @@
               }
             },
             {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "deg": 315.0,
-                "CARD": "Northwest",
-                "SEXA": 31500.0
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T00:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T06:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T12:00:00",
-              "value": {
-                "deg": 337.5,
-                "CARD": "North-Northwest",
-                "SEXA": 33730.0
-              }
-            },
-            {
-              "datetime": "2023-12-14T18:00:00",
-              "value": {
-                "deg": 202.5,
-                "CARD": "South-Southwest",
-                "SEXA": 20230.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
-                "deg": 157.5,
-                "CARD": "South-Southeast",
-                "SEXA": 15730.0
-              }
-            },
-            {
-              "datetime": "2023-12-15T06:00:00",
-              "value": {
-                "deg": 0.0,
-                "CARD": "berubah-ubah",
-                "SEXA": 0.0
-              }
-            },
-            {
               "datetime": "2023-12-15T12:00:00",
               "value": {
                 "deg": 0.0,
@@ -3126,6 +2016,38 @@
             },
             {
               "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "deg": 157.5,
+                "CARD": "South-Southeast",
+                "SEXA": 15730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "deg": 0.0,
+                "CARD": "berubah-ubah",
+                "SEXA": 0.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "deg": 90.0,
+                "CARD": "East",
+                "SEXA": 9000.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
               "value": {
                 "deg": 247.5,
                 "CARD": "West-Southwest",
@@ -3138,80 +2060,35 @@
           "type": "hourly",
           "timerange": [
             {
-              "datetime": "2023-12-13T00:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-13T06:00:00",
-              "value": {
-                "Kt": 10.0,
-                "MPH": 11.5077945,
-                "KPH": 18.52,
-                "MS": 5.14444444
-              }
-            },
-            {
-              "datetime": "2023-12-13T12:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
-              "datetime": "2023-12-13T18:00:00",
-              "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
-              }
-            },
-            {
               "datetime": "2023-12-14T00:00:00",
               "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
               }
             },
             {
               "datetime": "2023-12-14T06:00:00",
               "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
+                "Kt": 0.0,
+                "MPH": 0.0,
+                "KPH": 0.0,
+                "MS": 0.0
               }
             },
             {
               "datetime": "2023-12-14T12:00:00",
               "value": {
-                "Kt": 5.0,
-                "MPH": 5.75389725,
-                "KPH": 9.26,
-                "MS": 2.57222222
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
               }
             },
             {
               "datetime": "2023-12-14T18:00:00",
               "value": {
-                "Kt": 10.0,
-                "MPH": 11.5077945,
-                "KPH": 18.52,
-                "MS": 5.14444444
-              }
-            },
-            {
-              "datetime": "2023-12-15T00:00:00",
-              "value": {
                 "Kt": 5.0,
                 "MPH": 5.75389725,
                 "KPH": 9.26,
@@ -3219,12 +2096,21 @@
               }
             },
             {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
+              }
+            },
+            {
               "datetime": "2023-12-15T06:00:00",
               "value": {
-                "Kt": 0.0,
-                "MPH": 0.0,
-                "KPH": 0.0,
-                "MS": 0.0
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
               }
             },
             {
@@ -3239,10 +2125,1130 @@
             {
               "datetime": "2023-12-15T18:00:00",
               "value": {
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "Kt": 0.0,
+                "MPH": 0.0,
+                "KPH": 0.0,
+                "MS": 0.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "Kt": 2.0,
+                "MPH": 2.3015589,
+                "KPH": 3.704,
+                "MS": 1.028888888
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
                 "Kt": 5.0,
                 "MPH": 5.75389725,
                 "KPH": 9.26,
                 "MS": 2.57222222
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "501196",
+      "kabupaten": {
+        "en_US": "Jakarta Utara",
+        "id_ID": "Kota Jakarta Utara"
+      },
+      "provinsi": "DKI Jakarta",
+      "coordinate": "106.865559 -6.126218",
+      "parameter": {
+        "kelembapan_udara": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "%": 70.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "%": 70.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "%": 70.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 65.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "%": 85.0
+              }
+            }
+          ]
+        },
+        "kelembapan_udara_maksimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "%": 90.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 95.0
+              }
+            }
+          ]
+        },
+        "suhu_udara_maksimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 31.0,
+                "F": 87.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 32.0,
+                "F": 89.6
+              }
+            }
+          ]
+        },
+        "kelembapan_udara_minimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "%": 70.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "%": 65.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 65.0
+              }
+            }
+          ]
+        },
+        "suhu_udara_minimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "C": 25.0,
+                "F": 77.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 25.0,
+                "F": 77.0
+              }
+            }
+          ]
+        },
+        "suhu_udara": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "C": 29.0,
+                "F": 84.2
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "C": 31.0,
+                "F": 87.8
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 29.0,
+                "F": 84.2
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "C": 32.0,
+                "F": 89.6
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 29.0,
+                "F": 84.2
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "C": 26.0,
+                "F": 78.8
+              }
+            }
+          ]
+        },
+        "cuaca": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": "Cerah / Clear Skies"
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            }
+          ]
+        },
+        "arah_angin": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "deg": 0.0,
+                "CARD": "berubah-ubah",
+                "SEXA": 0.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "deg": 45.0,
+                "CARD": "Northeast",
+                "SEXA": 4500.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "deg": 157.5,
+                "CARD": "South-Southeast",
+                "SEXA": 15730.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "deg": 270.0,
+                "CARD": "West",
+                "SEXA": 27000.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            }
+          ]
+        },
+        "kecepatan_angin": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "Kt": 0.0,
+                "MPH": 0.0,
+                "KPH": 0.0,
+                "MS": 0.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "501194",
+      "kabupaten": {
+        "en_US": "Kepulauan Seribu",
+        "id_ID": "Kab. Kepulauan Seribu"
+      },
+      "provinsi": "DKI Jakarta",
+      "coordinate": "106.825562 -5.987607",
+      "parameter": {
+        "kelembapan_udara": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "%": 80.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "%": 85.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 65.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "%": 85.0
+              }
+            }
+          ]
+        },
+        "kelembapan_udara_maksimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "%": 90.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "%": 90.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 90.0
+              }
+            }
+          ]
+        },
+        "suhu_udara_maksimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 31.0,
+                "F": 87.8
+              }
+            }
+          ]
+        },
+        "kelembapan_udara_minimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "%": 75.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "%": 65.0
+              }
+            }
+          ]
+        },
+        "suhu_udara_minimum": {
+          "type": "daily",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "C": 27.0,
+                "F": 80.6
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 27.0,
+                "F": 80.6
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 27.0,
+                "F": 80.6
+              }
+            }
+          ]
+        },
+        "suhu_udara": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "C": 27.0,
+                "F": 80.6
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "C": 29.0,
+                "F": 84.2
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "C": 27.0,
+                "F": 80.6
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "C": 28.0,
+                "F": 82.4
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "C": 27.0,
+                "F": 80.6
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "C": 30.0,
+                "F": 86.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "C": 31.0,
+                "F": 87.8
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "C": 27.0,
+                "F": 80.6
+              }
+            }
+          ]
+        },
+        "cuaca": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": "Cerah / Clear Skies"
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": "Cerah / Clear Skies"
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": "Cerah Berawan / Partly Cloudy"
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": "Cerah / Clear Skies"
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": "Cerah / Clear Skies"
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": "Cerah / Clear Skies"
+            }
+          ]
+        },
+        "arah_angin": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "deg": 202.5,
+                "CARD": "South-Southwest",
+                "SEXA": 20230.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "deg": 45.0,
+                "CARD": "Northeast",
+                "SEXA": 4500.0
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "deg": 112.5,
+                "CARD": "East-Southeast",
+                "SEXA": 11230.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "deg": 202.5,
+                "CARD": "South-Southwest",
+                "SEXA": 20230.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "deg": 337.5,
+                "CARD": "North-Northwest",
+                "SEXA": 33730.0
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "deg": 247.5,
+                "CARD": "West-Southwest",
+                "SEXA": 24730.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "deg": 315.0,
+                "CARD": "Northwest",
+                "SEXA": 31500.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "deg": 270.0,
+                "CARD": "West",
+                "SEXA": 27000.0
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "deg": 225.0,
+                "CARD": "Southwest",
+                "SEXA": 22500.0
+              }
+            }
+          ]
+        },
+        "kecepatan_angin": {
+          "type": "hourly",
+          "timerange": [
+            {
+              "datetime": "2023-12-14T00:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-14T06:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-14T12:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-14T18:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-15T00:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-15T06:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-15T12:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-15T18:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-16T00:00:00",
+              "value": {
+                "Kt": 5.0,
+                "MPH": 5.75389725,
+                "KPH": 9.26,
+                "MS": 2.57222222
+              }
+            },
+            {
+              "datetime": "2023-12-16T06:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-16T12:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
+              }
+            },
+            {
+              "datetime": "2023-12-16T18:00:00",
+              "value": {
+                "Kt": 10.0,
+                "MPH": 11.5077945,
+                "KPH": 18.52,
+                "MS": 5.14444444
               }
             }
           ]
