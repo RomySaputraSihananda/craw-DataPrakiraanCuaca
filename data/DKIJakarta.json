@@ -11,7 +11,7 @@
       },
       "provinsi": "DKI Jakarta",
       "coordinate": "106.731319 -6.203019",
-      "parameter": {
+      "parameters": {
         "kelembapan_udara": {
           "type": "hourly",
           "timerange": [
@@ -553,7 +553,7 @@
       },
       "provinsi": "DKI Jakarta",
       "coordinate": "106.826591 -6.176396",
-      "parameter": {
+      "parameters": {
         "kelembapan_udara": {
           "type": "hourly",
           "timerange": [
@@ -1095,7 +1095,7 @@
       },
       "provinsi": "DKI Jakarta",
       "coordinate": "106.856804 -6.293118",
-      "parameter": {
+      "parameters": {
         "kelembapan_udara": {
           "type": "hourly",
           "timerange": [
@@ -1637,7 +1637,7 @@
       },
       "provinsi": "DKI Jakarta",
       "coordinate": "106.901093 -6.213599",
-      "parameter": {
+      "parameters": {
         "kelembapan_udara": {
           "type": "hourly",
           "timerange": [
@@ -2179,7 +2179,7 @@
       },
       "provinsi": "DKI Jakarta",
       "coordinate": "106.865559 -6.126218",
-      "parameter": {
+      "parameters": {
         "kelembapan_udara": {
           "type": "hourly",
           "timerange": [
@@ -2721,7 +2721,7 @@
       },
       "provinsi": "DKI Jakarta",
       "coordinate": "106.825562 -5.987607",
-      "parameter": {
+      "parameters": {
         "kelembapan_udara": {
           "type": "hourly",
           "timerange": [

@@ -27,6 +27,8 @@ class Bmkg:
             
     def __filter_area(self, areas: list) -> None:
         for area in areas:
+            parameters = area.get('parameter', [])
+
             self.__result['data'].append({
                 "id": area['@id'],
                 "kabupaten": {name['@xml:lang'] : name['#text'] for name in area['name']},
@@ -46,7 +48,7 @@ class Bmkg:
                                 } if timerange['value']['@unit'] != 'icon' else Kode_Cuaca[timerange['value']['#text']]
                             } for timerange in parameter['timerange']
                         ]
-                    } for parameter in area['parameter']
+                    } for parameter in parameters
                 }
             })
 
@@ -70,6 +72,6 @@ class Bmkg:
 if(__name__ == "__main__"):
     bmkg: Bmkg = Bmkg()
 
-    with open('test_data.json', 'w') as file:
-        file.write(dumps(bmkg.execute('Banteng'), indent=2))
+    with open('test_data2.json', 'w') as file:
+        file.write(dumps(bmkg.execute('DKIJakarta'), indent=2))
     # print(bmkg.execute('Aceh'))
