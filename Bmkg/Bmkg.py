@@ -27,8 +27,6 @@ class Bmkg:
             
     def __filter_area(self, areas: list) -> None:
         for area in areas:
-            parameters = area.get('parameter', [])
-
             self.__result['data'].append({
                 "id": area['@id'],
                 "kabupaten": {name['@xml:lang'] : name['#text'] for name in area['name']},
@@ -48,7 +46,7 @@ class Bmkg:
                                 } if timerange['value']['@unit'] != 'icon' else Kode_Cuaca[timerange['value']['#text']]
                             } for timerange in parameter['timerange']
                         ]
-                    } for parameter in parameters
+                    } for parameter in area.get('parameter', [])
                 }
             })
 
